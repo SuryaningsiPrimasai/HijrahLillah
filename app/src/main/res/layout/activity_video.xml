@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.cimyu.HijrahLillah.video">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="62dp"
+    app:srcCompat="@drawable/salam" />
+
+<Button
+    android:id="@+id/Alquran"
+    android:layout_width="119dp"
+    android:layout_height="92dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="71dp"
+    android:layout_marginLeft="71dp"
+    android:layout_marginTop="296dp"
+    android:background="@drawable/quran" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="102dp"
+    android:layout_marginLeft="102dp"
+    android:layout_marginTop="392dp"
+    android:text="Al - Quran" />
+
+<Button
+    android:id="@+id/video"
+    android:layout_width="117dp"
+    android:layout_height="96dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="233dp"
+    android:layout_marginLeft="233dp"
+    android:layout_marginTop="299dp"
+    android:background="@drawable/videoyutub" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="276dp"
+    android:layout_marginLeft="276dp"
+    android:layout_marginTop="392dp"
+    android:text="Video" />
+
+<Button
+    android:id="@+id/doa"
+    android:layout_width="116dp"
+    android:layout_height="101dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="69dp"
+    android:layout_marginLeft="69dp"
+    android:layout_marginTop="461dp"
+    android:background="@drawable/doa" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="113dp"
+    android:layout_marginLeft="113dp"
+    android:layout_marginTop="562dp"
+    android:text="Doa" />
+
+<Button
+    android:id="@+id/tasbih"
+    android:layout_width="122dp"
+    android:layout_height="99dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="224dp"
+    android:layout_marginLeft="224dp"
+    android:layout_marginTop="462dp"
+    android:background="@drawable/tasbih" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="248dp"
+    android:layout_marginLeft="248dp"
+    android:layout_marginTop="562dp"
+    android:text="Mari Bertasbih!" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cimyu.HijrahLillah">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Hijrah Lillah"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".doa"></activity>
+        <activity android:name=".tasbih" />
+        <activity android:name=".video" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".presentation.listsurah.ListSurahActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".presentation.splashscreen.SplashscreenActivity"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.listayat.ListAyatActivity" />
+    </application>
+
+</manifest>
